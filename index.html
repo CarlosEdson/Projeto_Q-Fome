@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Q-Fome</title>
 </head>
 <body>
     <header>
-
+        <i id="iconemenu" class="ph-bold ph-list" onclick="menu()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Restaurantes</a></li>
+                <li><a href="#">Pedidos</a></li>
+            </ul>
+        </menu>
+        <i class="ph-bold ph-shopping-cart"></i>
+        <input type="search" name="pesquisa" id="pesquisa">
+        <i id="iconepesquisa" class="ph-bold ph-magnifying-glass"></i>
+        <button>Login</button>
     </header>
     <main>
 
@@ -15,5 +29,6 @@
     <footer>
         
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
