@@ -12,11 +12,16 @@ header{
     height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
+#iconemenu{
+    
+}
 header > h1{
-    font-size: 30px;
+    font-size: 25px;
+    padding-left: 10px;
+    width: 90px;
 }
 header > h1 > span{
     color: red;
@@ -34,7 +39,13 @@ a{
 }
 #pesquisa{
     height: 30px;
-    width: 200px;
+    width: 150px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;
+}
+#iconepesquisa{
+    position: absolute;
+    left: 67%;
 }
 button{
     height: 30px;
