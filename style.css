@@ -60,13 +60,13 @@ main{
     height: 25%;
     background-color: rgb(37, 37, 37);
 }
-#comidas > h3{
-    padding: 10px 0px 10px 20px;
-    font-size: 20px;
+#comidas > h3, #Restaurantes > h3{
+    padding: 20px 0px 10px 20px;
+    font-size: 25px;
     color: rgba(255, 255, 0, 0.74);
 }
 #comidas img{
-    height: 80px;
-    width: 110px;
-    padding: 10px 15px;
+    height: 145px;
+    width: 160px;
+    padding: 10px 20px;
 }
